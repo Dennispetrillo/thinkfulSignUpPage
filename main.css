@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	margin: : 0;
+	background-color: teal;
+	font-family: "Roboto", sans-serif;
+}
+
+.logo {
+	height: 125px%;
+	width: 175px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 35px;
+}
+
+.box {
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 35px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+fieldset {
+	border: none;
+}
+
+.signUpHeadingMargin {
+	margin-bottom: 50px;
+}
+
+.break {
+	display: block;
+}
+
+.center {
+	text-align: center;
+}
+
+.sizing input, button {
+	width: 303px;
+	height: 38px;
+	border: 2px solid black;
+	padding: 15px;
+}
+
+.marginBottom label, input {
+	margin-bottom: 15px;
+}
+
+.inputSize {
+	font-size: 15px;
+}
+
+.signButton {
+	background-color: green;
+	font-size: 18px;
+	vertical-align: top;
+	padding: 10px;
+	color: white;
+}
+
+.whiteText {
+	color: white;
+}
+
+
+
+
+
+
+

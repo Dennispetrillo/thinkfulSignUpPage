@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Annotated Design Prototype</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<header>
+	<div>
+	<img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png" class="logo">
+	</div>
+</header>
+<body>
+	<main class="box sizing marginBottom">
+		<form action="/signup/" method="post">
+			<fieldset name="sign-up">
+				<h1 class="center signUpHeadingMargin">Sign up</h1>
+
+				<label for="email" class="break">Email</label>
+				<input type="email" name="email" id="emailaddr" placeholder="foo@bar.com" class="inputSize" required>
+
+				<label for="password" class="break">Password</label>
+				<input type="text" name="password" id="password" placeholder="foo@bar.com" class="inputSize" required>
+			
+			<button type="submit" class="center signButton">Sign up</button>
+			
+			</fieldset>
+					
+			<p class="center"><a href="/forgot-password/new">Forgot password?</a></p> 
+		
+		</form>
+	</main>
+	<p class="center whiteText">Already have an account? <a href="/login" class=whiteText>Log In</a></span></p> 
+
+</body>
+</html>
